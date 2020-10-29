@@ -1,0 +1,17 @@
+gatsby new hotelgastby
+gatsby develop
+
+npm i @emotion/core @emotion/styled gatsby-plugin-emotion
+    -> Agregar el plugin en el archivo 'gatsby-config.js'
+
+npm i gatsby-background-image
+
+npm i gatsby-source-datocms
+
+
+/* NOTA IMPORTANTE */
+Los datos provienen de "https://www.datocms.com/"
+
+
+gatsby build    <- crear el build de producción
+gatsby serve    <- correr en un servidor local el build de producción
